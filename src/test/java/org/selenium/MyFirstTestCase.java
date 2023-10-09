@@ -10,7 +10,6 @@ public class MyFirstTestCase {
 
     @Test
     public void guestCheckoutUsingDirectBankTransfer() throws InterruptedException {
-        // System.setProperty("webdriver.chrome.driver", "ceciliacarbajal\\Documentos\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.askomdch.com/");
         driver.manage().window().maximize();
